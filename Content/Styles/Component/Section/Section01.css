@@ -1,0 +1,40 @@
+/* Common xs1, xs2 */
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 1320px) {
+  .Section-01 .c-wrapper {
+    display: flex;
+  }
+  .Section-01 .c-wrapper .img-container {
+    left: -110px;
+  }
+  .Section-01 .c-wrapper .img-container .img {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .Section-01 .c-wrapper .img-container .img img {
+    width: 450px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  .Section-01 .c-wrapper .img-container .on {
+    position: relative;
+    top: 300px;
+  }
+  .Section-01 .c-wrapper .info-container {
+    padding-top: 200px;
+    color: white;
+    width: 700px;
+  }
+  .Section-01 .c-wrapper .info-container h1 {
+    font-size: 58px;
+    margin-bottom: 40px;
+  }
+  .Section-01 .c-wrapper .info-container p {
+    font-size: 15px;
+  }
+  .Section-01 .c-wrapper .info-container p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=Section01.css.map */
